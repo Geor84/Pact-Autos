@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+/* Header - Barra de Navegacion */
+
+.claseHeader{
+    background-image: url("/img/auto600.jpg");
+    /* background-position: center; */
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:10% 60%;
+    margin:0  5px;
+}
+
+.claseHeader h1{
+    vertical-align:bottom;
+    color:red;
+    text-shadow: 10px 4px 3px black;
+    text-align:center;
+}
+
+.navContainer{
+    padding:40px 40px 100px 40px;
+}
+
+.navList{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.navItem > a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px;
+}
+.navItem > a:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* Main - Subtitulos*/
+
+.cont-texto {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.cont-texto h2{
+    color: red;
+    text-align: center;
+}
+
+.cont-texto p{
+    color: black;
+    padding: 20px;
+}
+
+/* Cards */ 
+
+.contCards{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.cards{
+    width: 30%;
+    height: auto;
+    margin: 3px;background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    box-shadow: 10px 10px 15px;
+    display:inline-block;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.imgCards{
+    border-radius: 8px;
+    height: 200px;
+}
+
+/* Footer */
+.foot{
+    height: 100px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+.listaSociales li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.listaSociales li >a{
+    color: black;
+}
+
+/* Hoja de Contacto */
+
+.headContacto{
+    margin: 20px;
+}
+
+.navContacto{
+    padding:40px 40px 50px 40px;
+}
+
+.navListContacto{
+    list-style: none;
+}
+
+.navItemContacto > a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.navItemContacto > a:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.bodyContacto{
+    background-image: url("/img/autoContacto.jpeg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:10% 60%;
+    margin:0  5px;
+}
+
+/* Formulario */
+
+.mainContacto{
+    height: 350px;
+    margin: 50px;
+}
+
+.row input{
+    height: 30px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.row textarea{
+    height: 30px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.label{
+    color:aliceblue ;
+    font-size: 20px;
+}
