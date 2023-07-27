@@ -7,7 +7,7 @@
 /* Header - Barra de Navegacion */
 
 .claseHeader{
-    background-image: url("/img/auto600.jpg");
+    background-image: url("./img/auto600.jpg");
     /* background-position: center; */
     height: 400px;
     background-size: cover;
@@ -141,7 +141,7 @@
 }
 
 .bodyContacto{
-    background-image: url("/img/autoContacto.jpeg");
+    background-image: url("./img/autoContacto.jpeg");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
